@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+#wrapper {
+    width:50px;
+    height:50px;
+    background: gray;
+    box-shadow: 0 1px 15px rgba(0,0,0,.8);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#line-wrapper {
+   cursor:pointer;
+   width:56px;
+   height:35px;
+   position:relative;
+   top: 11px;
+   left: 5px;
+}
+
+.line {
+    background:#ffffff;
+    margin-top:6px;
+    margin-bottom:6px;
+    width:40px;
+    height:5px; 
+    border-radius:2px;
+    box-shadow:0 1px 3px rgba(0,0,0,.5);
+    
+}
